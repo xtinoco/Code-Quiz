@@ -29,7 +29,7 @@ body.wrong {
     --hue: var(--hue-wrong);
 }
 
-.box {
+.container {
     width: 800px;
     max-width: 80%;
     background-color: white;
