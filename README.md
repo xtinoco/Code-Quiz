@@ -1,6 +1,6 @@
 # Code-Quiz
 
-For this weeks homework I have created a code quiz game on JavaScript fudamentals that stores high scores.
+For this weeks homework I have created a code quiz game on JavaScript fudamentals.
 
 
 ## Basic Functions
