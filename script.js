@@ -40,6 +40,7 @@ function showQuestion(question) {
 }
 
 function resetState() {
+    clearStatusClass(document.body)
     nextButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild)
@@ -53,10 +54,11 @@ function selectAnswer(e) {
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     })
-    if (shuffledQuestions.length > currentQuestionIndex + 1)
+    if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
     } else {
-        startButton.innerText =
+        startButton.innerText = 'Restart'
+        startButton.classList.remove('hide')
     }
 }
 
@@ -82,5 +84,37 @@ const questions = [
             { text: 'A popular coffee drink', correct: false}
         ]
 
+    },
+    {
+        question: 'What is JavaScript running order?',
+        answers: [
+            { text: 'from top to bottom', correct: true},
+            { text: 'from right to left', correct: false}
+        ]
+
+    },
+    {
+        question: 'What element is used to link JavaScript to HTML?',
+        answers: [
+            { text: '<script>', correct: true},
+            { text: '<js>', correct: false}
+        ]
+
+    },
+    {
+        question: 'JavaScript comments will be?',
+        answers: [
+            { text: 'ignored by the browser', correct: true},
+            { text: 'show up in the body of the webpage', correct: false}
+        ]
+    },
+    {
+        question: 'What is an Array?',
+        answers: [
+            { text: 'A list-like object', correct: true},
+            { text: 'A selection of fonts', correct: false}
+        ]
     }
 ]
+
+
