@@ -1,6 +1,6 @@
 # Code-Quiz
 
-For this weeks homework I have created a code quiz game on JavaScript fudamentals.
+For this weeks homework I have created a code quiz game on JavaScript fudamentals. (Couldnt figure out how to add timer and to keep score)
 
 
 ## Basic Functions
