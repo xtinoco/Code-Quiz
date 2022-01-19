@@ -13,7 +13,7 @@ For this weeks homework I have created a code quiz game on JavaScript fudamental
 
 
 
-#SCREENSHOT
+![Screenshot](images/screenshot.png)
 
 
-#LINK TO DEPLOYED APPLICATION
+
