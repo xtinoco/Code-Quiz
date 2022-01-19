@@ -55,10 +55,10 @@ function selectAnswer(e) {
         setStatusClass(button, button.dataset.correct)
     })
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
-    nextButton.classList.remove('hide')
+      nextButton.classList.remove('hide')
     } else {
-        startButton.innerText = 'Restart'
-        startButton.classList.remove('hide')
+      startButton.innerText = 'Restart'
+      startButton.classList.remove('hide')
     }
 }
 
