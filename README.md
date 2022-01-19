@@ -11,9 +11,9 @@ For this weeks homework I have created a code quiz game on JavaScript fudamental
 - Game ends when all questions are answered or timer reaches 0
 - When the game ends you can save your initials and your score
 
+link to website https://xtinoco.github.io/Code-Quiz/
 
-
-![Screenshot](images/screenshot.png)
+![Screenshot](/images/screenshot.png)
 
 
 
