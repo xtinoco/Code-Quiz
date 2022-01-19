@@ -3,7 +3,7 @@
 For this weeks homework I have created a code quiz game on JavaScript fudamentals that stores high scores.
 
 
-##Basic Functions
+## Basic Functions
 - Game begins when the start button is clicked
 - A question appears and a timer starts
 - If the question is answered correctly then another question appears
